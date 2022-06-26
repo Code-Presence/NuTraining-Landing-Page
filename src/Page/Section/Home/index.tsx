@@ -10,6 +10,7 @@ import {
 } from "./style";
 import logo from "../../../Assets/logo-sem-fundo-1.png";
 import firstScreen from "../../../Assets/Mocks/first_screen.png";
+import { Navbar } from "./Components/Navbar";
 
 function Home(): JSX.Element {
   return (
@@ -17,6 +18,7 @@ function Home(): JSX.Element {
       <Wrapper>
         <TopWrapper>
           <img src={logo} />
+          <Navbar />
         </TopWrapper>
         <ContentWrapper>
           <LeftWrapper>

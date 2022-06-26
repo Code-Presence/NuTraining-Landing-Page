@@ -1,16 +1,14 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  width: 100%;
+  width: 40rem;
+  height: 100%;
   display: flex;
   justify-content: center;
-  @media screen and (max-width: 768px) {
-    width: 100%;
-  }
 `;
 
 export const TextWrapper = styled.div`
-  width: 100rem;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -18,24 +16,15 @@ export const TextWrapper = styled.div`
   padding-right: 6rem;
   gap: 2rem;
   color: white;
-  @media screen and (max-width: 768px) {
-    gap: 1rem;
-    padding-right: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
+
   & > P {
     font-family: "Inter", sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     cursor: pointer;
-    @media screen and (max-width: 768px) {
-      font-size: 14px;
-    }
+
     :hover {
-      color: #5c7b9c;
+      color: #c7a465;
     }
   }
 `;

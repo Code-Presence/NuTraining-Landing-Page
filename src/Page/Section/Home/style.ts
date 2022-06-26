@@ -20,8 +20,13 @@ export const TopWrapper = styled.div`
   height: 10%;
 
   display: flex;
-
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+
+  & img {
+    padding-left: 1.5rem;
+  }
 `;
 
 export const ContentWrapper = styled.div`
@@ -55,9 +60,12 @@ export const Title = styled.h1`
   color: white;
   font-size: 42px;
   font-family: "Ubuntu";
+  padding-left: 1.5rem;
 `;
 export const Text = styled.p`
   color: white;
   font-size: 32px;
+  font-weight: 300;
   font-family: "Ubuntu";
+  padding-left: 1.5rem;
 `;

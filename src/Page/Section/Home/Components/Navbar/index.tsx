@@ -7,27 +7,37 @@ function Navbar(): JSX.Element {
       <TextWrapper>
         <p>
           <Link to="AboutMe" spy={true} smooth={true}>
-            About me
+            Home
           </Link>
         </p>
         <p>
-          <Link to="Experience" spy={true} smooth={true}>
-            Experience
+          <Link to="Concept" spy={true} smooth={true}>
+            Conceito
           </Link>
         </p>
         <p>
-          <Link to="Skills" spy={true} smooth={true}>
-            Skills
+          <Link to="Funcionalities" spy={true} smooth={true}>
+            Funcionalidades
           </Link>
         </p>
         <p>
-          <Link to="Portfolio" spy={true} smooth={true}>
-            Portfolio
+          <Link to="Squad" spy={true} smooth={true}>
+            Equipe
+          </Link>
+        </p>
+        <p>
+          <Link to="Depositions" spy={true} smooth={true}>
+            Depoimentos
+          </Link>
+        </p>
+        <p>
+          <Link to="Depositions" spy={true} smooth={true}>
+            Planos
           </Link>
         </p>
         <p>
           <Link to="Contact" spy={true} smooth={true}>
-            Contact
+            Contato
           </Link>
         </p>
       </TextWrapper>
