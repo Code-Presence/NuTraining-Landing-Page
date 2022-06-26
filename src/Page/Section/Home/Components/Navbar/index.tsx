@@ -31,7 +31,7 @@ function Navbar(): JSX.Element {
           </Link>
         </p>
         <p>
-          <Link to="Depositions" spy={true} smooth={true}>
+          <Link to="Plans" spy={true} smooth={true}>
             Planos
           </Link>
         </p>

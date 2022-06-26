@@ -14,7 +14,7 @@ import { Navbar } from "./Components/Navbar";
 
 function Home(): JSX.Element {
   return (
-    <Container>
+    <Container id="Home">
       <Wrapper>
         <TopWrapper>
           <img src={logo} />
